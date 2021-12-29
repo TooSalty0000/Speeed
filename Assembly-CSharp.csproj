@@ -36,28 +36,51 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\CatchLogic.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\PopperLogic.cs" />
+     <Compile Include="Assets\Scripts\AutoDestroyer.cs" />
+     <Compile Include="Assets\Scripts\Tick.cs" />
+     <Compile Include="Assets\Scripts\LevelSpawner.cs" />
+     <Compile Include="Assets\StackLogic.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-     <Compile Include="Assets\Popper.cs" />
-     <Compile Include="Assets\LevelSpawner.cs" />
-     <Compile Include="Assets\PopperLogic.cs" />
-     <Compile Include="Assets\StartCountDown.cs" />
-     <Compile Include="Assets\Slide.cs" />
-     <Compile Include="Assets\SlideLogic.cs" />
-     <Compile Include="Assets\Click.cs" />
-     <Compile Include="Assets\ClickLogic.cs" />
-     <Compile Include="Assets\Trace.cs" />
-     <Compile Include="Assets\TraceLogic.cs" />
-     <Compile Include="Assets\SortLogic.cs" />
-     <Compile Include="Assets\Sort.cs" />
-     <Compile Include="Assets\Move.cs" />
-     <Compile Include="Assets\MoveLogic.cs" />
-     <Compile Include="Assets\BackgroundScrolling.cs" />
-     <Compile Include="Assets\DontDestroyOnLoad.cs" />
-     <Compile Include="Assets\AutoDestroyer.cs" />
-     <Compile Include="Assets\Tick.cs" />
-     <Compile Include="Assets\Spot.cs" />
-     <Compile Include="Assets\TimeLogic.cs" />
+     <Compile Include="Assets\Scripts\Click.cs" />
+     <Compile Include="Assets\Particle.cs" />
+     <Compile Include="Assets\Scripts\Slide.cs" />
+     <Compile Include="Assets\Scripts\BackgroundScrolling.cs" />
+     <Compile Include="Assets\Scripts\Popper.cs" />
+     <Compile Include="Assets\FillLogic.cs" />
+     <Compile Include="Assets\Scripts\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Catch.cs" />
+     <Compile Include="Assets\Scripts\MoveLogic.cs" />
+     <Compile Include="Assets\Scripts\Trace.cs" />
+     <Compile Include="Assets\Scripts\ClickLogic.cs" />
+     <Compile Include="Assets\Scripts\SortLogic.cs" />
+     <Compile Include="Assets\Scripts\Sort.cs" />
+     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Scripts\Spot.cs" />
+     <Compile Include="Assets\Scripts\StartCountDown.cs" />
+     <Compile Include="Assets\Stack.cs" />
+     <Compile Include="Assets\Scripts\TimeLogic.cs" />
+     <Compile Include="Assets\Fill.cs" />
+     <Compile Include="Assets\Scripts\SlideLogic.cs" />
+     <Compile Include="Assets\Scripts\TraceLogic.cs" />
+     <Compile Include="Assets\MouseHandler.cs" />
+     <Compile Include="Assets\Pull.cs" />
+     <Compile Include="Assets\PullLogic.cs" />
+     <Compile Include="Assets\Connect.cs" />
+     <Compile Include="Assets\ConnectLogic.cs" />
+     <Compile Include="Assets\_Toggle.cs" />
+     <Compile Include="Assets\ToggleLogic.cs" />
+     <Compile Include="Assets\Swipe.cs" />
+     <Compile Include="Assets\SwipeLogic.cs" />
+     <Compile Include="Assets\PushLogic.cs" />
+     <Compile Include="Assets\Particle2.cs" />
+     <Compile Include="Assets\Push.cs" />
+     <Compile Include="Assets\ResetButton.cs" />
+     <Compile Include="Assets\Find.cs" />
+     <Compile Include="Assets\Eraser.cs" />
+     <Compile Include="Assets\FindLogic.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -646,20 +669,26 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -667,29 +696,29 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -706,68 +735,62 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
-    <Reference Include="PsdPlugin">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
         <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>E:\Coding\Game Makers\Unity\Unity Projects\Speeed\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

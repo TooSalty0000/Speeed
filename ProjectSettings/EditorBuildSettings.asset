@@ -9,24 +9,93 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: f6673a6c298aa934fa05af0e7cb0f7f3
   - enabled: 1
-    path: Assets/Scenes/Slide Scene.unity
-    guid: 2eb869823b3672a43900f17f20348607
-  - enabled: 1
     path: Assets/Scenes/Popper Scene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
-    path: Assets/Scenes/Click Scene.unity
-    guid: 7e7ddd3ddac0a3a4aaf901e8fde5850e
+    path: Assets/Scenes/Slide Scene.unity
+    guid: 2eb869823b3672a43900f17f20348607
   - enabled: 1
-    path: Assets/Scenes/Trace Scene.unity
-    guid: cb97bdff77815b14dae32914fcaebd48
-  - enabled: 1
-    path: Assets/Scenes/Sort Scene.unity
-    guid: 6d966d0263970c74eaca8fb075cc5f66
+    path: Assets/Scenes/Connect Scene.unity
+    guid: ec127968f5f7bb447bf5b36e4f254ce5
   - enabled: 1
     path: Assets/Scenes/Move Scene.unity
     guid: 773953c9ccc8ee146887b97571f3f226
   - enabled: 1
+    path: Assets/Scenes/Fill Scene.unity
+    guid: f384dd97d266c2d48a9f9e43c4a4dcb1
+  - enabled: 1
+    path: Assets/Scenes/Trace Scene.unity
+    guid: cb97bdff77815b14dae32914fcaebd48
+  - enabled: 1
+    path: Assets/Scenes/Move2 Scene.unity
+    guid: d6632478cb9e5f147b5311f51a6066dc
+  - enabled: 1
+    path: Assets/Scenes/Catch Scene.unity
+    guid: ae64660514e6acb48a6eb8c9f5da71f1
+  - enabled: 1
+    path: Assets/Scenes/Pull Scene.unity
+    guid: e04dda2cbb82c8e48a8dd163d56e8b41
+  - enabled: 1
+    path: Assets/Scenes/Popper2 Scene.unity
+    guid: 97bfa0e4ba1bb4640b94a47354146586
+  - enabled: 1
     path: Assets/Scenes/Time Scene.unity
     guid: 44819f500a4bee34ca055b01ebdcea6a
+  - enabled: 1
+    path: Assets/Scenes/Trace2 Scene.unity
+    guid: 1281d23b6f2ce064a87c4c6a8d52b9a5
+  - enabled: 1
+    path: Assets/Scenes/Connect2 Scene.unity
+    guid: e3903541ee4357449b61c86e0e05063d
+  - enabled: 1
+    path: Assets/Scenes/Click Scene.unity
+    guid: 7e7ddd3ddac0a3a4aaf901e8fde5850e
+  - enabled: 1
+    path: Assets/Scenes/Fill2 Scene.unity
+    guid: 46df422ad914acc498b36a3b6f0f5528
+  - enabled: 1
+    path: Assets/Scenes/Swipe Scene.unity
+    guid: 78978e70c84a4a54891e3969b576aad8
+  - enabled: 1
+    path: Assets/Scenes/Catch2 Scene.unity
+    guid: 076239b77167972449619372c73d6238
+  - enabled: 1
+    path: Assets/Scenes/Trace3 Scene.unity
+    guid: 5f7f381ac6cf22841ad34d2609b17f47
+  - enabled: 1
+    path: Assets/Scenes/Stack Scene.unity
+    guid: 1e7c5ea245e89e9469be207d5dd1ba64
+  - enabled: 1
+    path: Assets/Scenes/Pull2 Scene.unity
+    guid: 3ee9ed7a482a0fe4ab8ccf4c8744db93
+  - enabled: 1
+    path: Assets/Scenes/Push Scene.unity
+    guid: 11b7fcc2e443b59478f0c85f9059f289
+  - enabled: 1
+    path: Assets/Scenes/Click2 Scene.unity
+    guid: 7cbca4fd50c48ca4086b3c642d126ed3
+  - enabled: 1
+    path: Assets/Scenes/Toggle Scene.unity
+    guid: eb724b67d2c2c664987b733d642d9a8c
+  - enabled: 1
+    path: Assets/Scenes/Trace4 Scene.unity
+    guid: 0bc9d1a82cbcc33488706a9ca4f30634
+  - enabled: 1
+    path: Assets/Scenes/Stack2 Scene.unity
+    guid: 41e30df505ce2ad4ca15fe7d3c0d2cc1
+  - enabled: 1
+    path: Assets/Scenes/Sort Scene.unity
+    guid: 6d966d0263970c74eaca8fb075cc5f66
+  - enabled: 1
+    path: Assets/Scenes/Push2 Scene.unity
+    guid: 4b5d259833245b64c849637b489a6ac1
+  - enabled: 1
+    path: Assets/Scenes/Find Scene.unity
+    guid: 4065490824d203d46a9c1e8b134c10ce
+  - enabled: 1
+    path: Assets/Scenes/Trace5 Scene.unity
+    guid: 3e9c8d43b2a6c5c4eae02fbf1103648f
+  - enabled: 1
+    path: Assets/Scenes/Trace6 Scene.unity
+    guid: af80c7ba7c0246b469029202f8d723ad
   m_configObjects: {}

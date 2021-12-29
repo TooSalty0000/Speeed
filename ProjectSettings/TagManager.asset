@@ -9,6 +9,13 @@ TagManager:
   - Sort
   - End
   - Movable
+  - Ball
+  - Stack
+  - Particle
+  - Pull
+  - Connect
+  - Toggle
+  - Swipe
   layers:
   - Default
   - TransparentFX
@@ -16,8 +23,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - Added
+  - Particle
+  - ParticleThrough
   - 
   - 
   - 
