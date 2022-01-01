@@ -48,11 +48,11 @@ public class Move : MonoBehaviour
                                 transform.position = touchPos;
                             }
                         }
-                        else if (touch.phase == TouchPhase.Ended)
+                        else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
                         {
                             moving = false;
                             touchID = -1;
-                            if (goal.OverlapPoint(touchPos))
+                            if (goal.OverlapPoint(transform.position))
                             {
                                 moved = true;
                                 GetComponent<SpriteRenderer>().color = Color.yellow;

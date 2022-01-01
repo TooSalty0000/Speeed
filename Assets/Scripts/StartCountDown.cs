@@ -8,10 +8,16 @@ public class StartCountDown : MonoBehaviour
     public float startCountDown = 3f;
     [SerializeField]
     private TextMeshPro countDownText;
+    
+    [SerializeField]
+    private bool debugging;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (debugging) {
+            Destroy(countDownText);
+            enabled = false;
+        }
     }
 
     // Update is called once per frame

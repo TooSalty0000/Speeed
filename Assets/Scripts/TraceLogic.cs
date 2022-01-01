@@ -7,8 +7,6 @@ public class TraceLogic : MonoBehaviour
     [SerializeField]
     private GameObject start;
     [SerializeField]
-    private GameObject path;
-    [SerializeField]
     private GameObject end;
 
     private bool tracing = false;

@@ -16,6 +16,8 @@ TagManager:
   - Connect
   - Toggle
   - Swipe
+  - Point
+  - Cup
   layers:
   - Default
   - TransparentFX

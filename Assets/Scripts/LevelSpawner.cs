@@ -21,9 +21,8 @@ public class LevelSpawner : MonoBehaviour
     private int debugger = 0;
     
     public int level = 0;
-    public bool switchReady = false;
     [SerializeField]
-    private bool debugging;
+    private bool testing;    
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +36,7 @@ public class LevelSpawner : MonoBehaviour
 
     private IEnumerator switchScene() {
         if (level <= 0) {
-            if (debugging) {
+            if (testing) {
                 AsyncOperation operation = SceneManager.LoadSceneAsync(debugger, LoadSceneMode.Additive);
                 yield return new WaitUntil(() => operation.isDone);
                 SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(debugger));

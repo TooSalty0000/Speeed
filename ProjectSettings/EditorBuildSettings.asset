@@ -72,11 +72,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Push Scene.unity
     guid: 11b7fcc2e443b59478f0c85f9059f289
   - enabled: 1
-    path: Assets/Scenes/Click2 Scene.unity
-    guid: 7cbca4fd50c48ca4086b3c642d126ed3
-  - enabled: 1
     path: Assets/Scenes/Toggle Scene.unity
     guid: eb724b67d2c2c664987b733d642d9a8c
+  - enabled: 1
+    path: Assets/Scenes/Find Scene.unity
+    guid: 4065490824d203d46a9c1e8b134c10ce
   - enabled: 1
     path: Assets/Scenes/Trace4 Scene.unity
     guid: 0bc9d1a82cbcc33488706a9ca4f30634
@@ -84,17 +84,35 @@ EditorBuildSettings:
     path: Assets/Scenes/Stack2 Scene.unity
     guid: 41e30df505ce2ad4ca15fe7d3c0d2cc1
   - enabled: 1
+    path: Assets/Scenes/Hammer Scene.unity
+    guid: 7cbca4fd50c48ca4086b3c642d126ed3
+  - enabled: 1
     path: Assets/Scenes/Sort Scene.unity
     guid: 6d966d0263970c74eaca8fb075cc5f66
   - enabled: 1
     path: Assets/Scenes/Push2 Scene.unity
     guid: 4b5d259833245b64c849637b489a6ac1
   - enabled: 1
-    path: Assets/Scenes/Find Scene.unity
-    guid: 4065490824d203d46a9c1e8b134c10ce
-  - enabled: 1
     path: Assets/Scenes/Trace5 Scene.unity
     guid: 3e9c8d43b2a6c5c4eae02fbf1103648f
+  - enabled: 1
+    path: Assets/Scenes/Find2 Scene.unity
+    guid: a82cb202fdeb13e4cbfa2703458a9ffb
+  - enabled: 1
+    path: Assets/Scenes/Spin Scene.unity
+    guid: 5aa442e915e2a984d8adabc4060d409d
+  - enabled: 1
+    path: Assets/Scenes/Shoot Scene.unity
+    guid: 6b726169391a56244ba8ad5986f6a75d
+  - enabled: 1
+    path: Assets/Scenes/Copy Scene.unity
+    guid: 82d90973d51622845b98622e2236630a
+  - enabled: 1
+    path: Assets/Scenes/Break Scene.unity
+    guid: d9d47bf2ed2ee2447b63d16c86370652
+  - enabled: 1
+    path: Assets/Scenes/Dodge Scene.unity
+    guid: 2250d7519992c90448aa325477f00628
   - enabled: 1
     path: Assets/Scenes/Trace6 Scene.unity
     guid: af80c7ba7c0246b469029202f8d723ad

@@ -324,10 +324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfa79088663eaca4dae38684948a6a12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugger: 29
+  debugger: 26
   level: 0
-  switchReady: 1
-  debugging: 1
+  testing: 0
 --- !u!4 &256403300
 Transform:
   m_ObjectHideFlags: 0
@@ -356,6 +355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startCountDown: 1
   countDownText: {fileID: 99477271}
+  debugging: 0
 --- !u!114 &256403302
 MonoBehaviour:
   m_ObjectHideFlags: 0
